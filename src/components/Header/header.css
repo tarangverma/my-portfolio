@@ -1,0 +1,40 @@
+.header {
+    color: black;
+    border: 1px solid #e5e7eb;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.profile {
+   border-radius: 50%;
+   height: 60px;
+   width: 60px;
+};
+
+.h2{
+    font-size: 40px !important;
+    background-color: #F7F7F7 !important;
+}
+.connect {
+    display: flex;
+    position: relative;
+    left: 850px;
+    background-color: #F7F7F7;
+
+}
+
+.connect img {
+    height: 40px;
+    width: 40px;
+    background-color: #F7F7F7;
+}
+.connect > div {
+        margin: 5px 19px;
+        background-color: #F7F7F7;
+}
+.connect a {
+    background-color: #F7F7F7;   
+}
