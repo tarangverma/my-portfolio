@@ -7,13 +7,22 @@ import gmail from "../../assets/gmail.svg"
 import linkedin from "../../assets/LinkedIn.svg"
 
 function header() {
+const handelClick = () => {
+
+}
+
   return (
     <div className='header'>
-      <div>
-        <img className='profile' src={image} alt='no-img'></img>
+      <div className='profile'>
+        <img className='profile-img' src={image} alt='no-img'></img>
       </div>
       <div className='heading'>
-        <h2 className='h2'>Tarang Verma</h2>
+        <h2 className='dots' onClick={handelClick}>
+          <div className='dot blue'></div>
+          <div className='dot green'></div>
+          <div className='dot red'></div>
+          <div className='dot yellow'></div>
+        </h2>
       </div>
       <div className='connect'>
         <div>

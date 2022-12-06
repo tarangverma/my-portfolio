@@ -1,0 +1,91 @@
+.content {
+    position: relative;
+    font-family: Montserrat;
+    text-align: center;
+    color: #006600;
+    font-size: 70px;
+    padding-top: 20vh;
+    overflow: hidden;
+    
+}
+
+.content > div {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.main {
+    animation: appear 6s infinite;
+}
+
+.title {
+    animation: reveal 6s infinite;
+}
+
+.title span {
+    font-size: 65px;
+    color: #808000;
+    animation: slide 6s infinite;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-left: -700px;
+    }
+
+    20% {
+        margin-left: -700px;
+    }
+
+    35% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+
+    30% {
+        width: 655px;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width: 655px;
+    }
+}

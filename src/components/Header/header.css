@@ -9,15 +9,65 @@
 }
 
 .profile {
-   border-radius: 50%;
-   height: 60px;
-   width: 60px;
-};
 
-.h2{
-    font-size: 40px !important;
-    background-color: #F7F7F7 !important;
+    background-color: #F7F7F7;
 }
+
+.profile-img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+
+.heading {
+    display: inline-block;
+    background-color: #F7F7F7; 
+}
+
+.dots {
+    transform: translate(-50% -50%);
+    display: flex;
+}
+
+.dots .dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 20px;
+    background-color: #F7F7F7;
+}
+
+@keyframes codebeauty {
+    to{
+        transform: translateY(-20px);
+    }
+}
+
+.dots .dot.blue {
+    background: #4285f4;
+    animation: codebeauty .5s ease-in-out infinite alternate forwards;
+    animation-delay: 0s;
+    
+}
+.dots .dot.red {
+    background: tomato;
+    animation: codebeauty .5s ease-in-out infinite alternate forwards;
+    animation-delay: 0s;
+}
+.dots .dot.yellow {
+    background: yellow;
+    animation: codebeauty .5s ease-in-out infinite alternate forwards;
+    animation-delay: 0s;
+}
+.dots .dot.green {
+    background: green;
+    animation: codebeauty .5s ease-in-out infinite alternate forwards;
+    animation-delay: 0s;
+}
+
+
+
 .connect {
     display: flex;
     position: relative;
@@ -31,10 +81,12 @@
     width: 40px;
     background-color: #F7F7F7;
 }
-.connect > div {
-        margin: 5px 19px;
-        background-color: #F7F7F7;
+
+.connect>div {
+    margin: 5px 19px;
+    background-color: #F7F7F7;
 }
+
 .connect a {
-    background-color: #F7F7F7;   
+    background-color: #F7F7F7;
 }
