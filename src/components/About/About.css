@@ -1,0 +1,23 @@
+.about {
+    position: relative;
+    border: 1px solid #ebebeb;
+    height: max-content;
+    background: #F7F7F7; 
+    font-size: 30px;   
+}
+.head {
+    margin: 100px 200px;
+    display: flex;
+    flex-direction: row;
+
+}
+.about > h1 {
+    
+    border-bottom: 5px solid tomato;
+    width: max-content;
+    color: tomato;
+}
+.head > img {
+    height: 500px;
+    width: 500px;
+}
