@@ -1,23 +1,38 @@
 .about {
+    
     position: relative;
     border: 1px solid #ebebeb;
     height: max-content;
     background: #F7F7F7; 
     font-size: 30px;   
 }
+.H1 > h1 {
+    margin-left: 58px;
+  color: #006600;
+  border-bottom: 3px solid #006600;
+  width: max-content;
+}
+.P1 > p {
+    padding: 5vh 8vh ;
+    color: #808000;
+    font-size: 20px;
+    line-height: 2rem;
+}
 .head {
+    
+    border-radius: 50rem 0 50rem 50rem;
     margin: 100px 200px;
     display: flex;
     flex-direction: row;
 
 }
-.about > h1 {
-    
-    border-bottom: 5px solid tomato;
-    width: max-content;
-    color: tomato;
-}
+
 .head > img {
+    border-radius: 50%;
     height: 500px;
     width: 500px;
+}
+.details {
+    display: inline;
+    
 }

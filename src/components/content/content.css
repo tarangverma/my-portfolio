@@ -5,11 +5,11 @@
 }
 .border1 {
     position: relative;
-    margin: 10vh 100vh 0 20vh ;
+    margin: 10vh 100vh 0 14vh ;
     border-top: 5px solid #006600;
 }
 .border2 {
-    margin: 10vh 20vh 10vh 100vh;
+    margin: 10vh 15vh 10vh 100vh;
     border-bottom: 5px solid #006600;
 }
 .content {
