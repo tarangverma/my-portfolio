@@ -30,8 +30,9 @@ function Timeline() {
         <div className="container right">
           <div className="content-m">
             <h2>NETFLIX-CLONE</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum,
-              vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            <p>A web app clone of Netflix. Used TMDB Api to fetch latest movies and categories to integrate in my app. 
+              I have tried to create the UI exactly same as the original Netflix website.
+            </p>
             <div className='logos'>
               <div className='react logo'><img src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'></img></div>
               <div className='node logo'><img src='https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white'></img></div>
@@ -47,8 +48,8 @@ function Timeline() {
         <div className="container left">
           <div className="content-m">
             <h2>WEATHER FORCAST</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum,
-              vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            <p>Weather App is a simple app which will tell us all about the current weather as well as the weather forecast of 7 days as per the weather data 
+              of any selected location .</p>
             <div className='logos'>
             <div className='react logo'><img src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'></img></div>
                <div className='node logo'><img src='https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white'></img></div>
@@ -63,8 +64,7 @@ function Timeline() {
         <div className="container right">
           <div className="content-m">
             <h2>PORTFOLIO</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum,
-              vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            <p>Here is my self build Portfolio which to showcase my skills and also a personal project to better myself with Front-end Devlopment.</p>
             <div className='logos'>
             <div className='react logo'><img src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'></img></div>
                <div className='node logo'><img src='https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white'></img></div>
@@ -78,9 +78,8 @@ function Timeline() {
         </div>
         <div className="container left">
           <div className="content-m">
-            <h2>DISENY+ PAGE</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum,
-              vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            <h2>DISENY+ HOME PAGE</h2>
+            <p>Diseny+ was having nice UI. I tried to make a same home page just like them, it helped me to advance my CSS skills .</p>
             <div className='logos'>
             <div className='react logo'><img src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'></img></div>
                <div className='node logo'><img src='https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white'></img></div>
