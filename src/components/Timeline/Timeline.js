@@ -79,7 +79,7 @@ function Timeline() {
         <div className="container left">
           <div className="content-m">
             <h2>DISENY+ HOME PAGE</h2>
-            <p>Diseny+ was having nice UI. I tried to make a same home page just like them, it helped me to advance my CSS skills .</p>
+            <p>Diseny+ was having nice UI. I tried to make a same home page just like them, it helped me to advance my CSS skills.</p>
             <div className='logos'>
             <div className='react logo'><img src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'></img></div>
                <div className='node logo'><img src='https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white'></img></div>

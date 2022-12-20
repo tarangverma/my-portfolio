@@ -1,0 +1,30 @@
+.contact {
+    background: #e5e7eb;
+    margin: 50px 0;
+    padding: 50px 0;
+    text-align: center;
+}
+.contact-1 > h1 {
+    background: #e5e7eb;
+    color: #006600;  
+}
+.lines > p {
+    background: #e5e7eb;
+  padding: 20px 55vh;
+  color: #808000;
+}
+.connect-logo {
+    background: #e5e7eb;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+}
+.connect-logo-img > a > img {
+    background: #e5e7eb;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+}
+.connect-logo-img > a {
+    background-color: #e5e7eb;
+}
