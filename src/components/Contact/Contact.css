@@ -19,12 +19,13 @@
     display: flex;
     justify-content: center;
 }
-.connect-logo-img > a > img {
+.connect-logo-img > img {
     background: #e5e7eb;
-    padding: 20px;
+    padding: 10px;
     height: 50px;
     width: 50px;
 }
-.connect-logo-img > a {
+
+.connect-logo-img {
     background-color: #e5e7eb;
 }

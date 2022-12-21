@@ -1,12 +1,15 @@
 import React from 'react'
 import "./Timeline.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Timeline() {
+  AOS.init();
   return (
-    <div className='T1'>
+    <div data-aos="slide-up" data-aos-offset="400" data-aos-delay="50" className='T1'>
       <h1>PROJECTS</h1>
       <div className="timeline">
-        <div className="container left">
+        <div data-aos="slide-right" data-aos-offset="100" data-aos-delay="500" className="container left">
           <div className="content-m">
             <h2>LET'S CHAT </h2>
             <h3><i>Chat app (1 month)</i></h3>

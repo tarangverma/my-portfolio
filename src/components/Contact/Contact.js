@@ -14,10 +14,10 @@ function Contact() {
                 . I will try to connect with you as soon as possible.
             </p>
             <div className='connect-logo'>
-            <div className='connect-logo-img'><a href='#'><img src={gmail} alt=''></img></a></div>
-            <div className='connect-logo-img'><a href='#'><img src={linkedin} alt=''></img></a></div>
-            <div className='connect-logo-img'><a href='#'><img src={twitter} alt=''></img></a></div>
-            <div className='connect-logo-img'><a href='#'><img src={github} alt=''></img></a></div>
+            <a className='connect-link' href='https://mail.google.com/mail/u/0/?fs=1&tf=cm'><div className='connect-logo-img'><img src={gmail} alt=''></img></div></a>
+            <a className='connect-link' href='https://www.linkedin.com/in/tarang-verma-33324121a/'><div className='connect-logo-img'><img src={linkedin} alt=''></img></div></a>
+            <a className='connect-link' href='https://twitter.com/TarangVerma19'><div className='connect-logo-img'><img src={twitter} alt=''></img></div></a>
+            <a className='connect-link' href='https://github.com/tarangverma'><div className='connect-logo-img'><img src={github} alt=''></img></div></a>
             </div>
     </div>
     </div>
