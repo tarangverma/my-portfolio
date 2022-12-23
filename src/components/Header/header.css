@@ -6,7 +6,10 @@
     flex-direction: row;
     align-items: center;
     background-color: #F7F7F7;
-    
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
 }
 
 .profile {
@@ -22,8 +25,7 @@
 
 .connect {
     display: flex;
-    position: relative;
-    left: 700px;
+    margin-left: 120vh;
     background-color: #F7F7F7;
       
 }
