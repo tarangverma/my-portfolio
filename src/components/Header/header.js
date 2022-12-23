@@ -16,26 +16,19 @@ const handelClick = () => {
       <div className='profile'>
         <img className='profile-img' src={image} alt='no-img'></img>
       </div>
-      <div className='heading'>
-        <h2 className='dots' onClick={handelClick}>
-          <div className='dot blue'></div>
-          <div className='dot green'></div>
-          <div className='dot red'></div>
-          <div className='dot yellow'></div>
-        </h2>
-      </div>
-      <div className='connect'>
-        <div>
-          <a href='#'><img src={github} alt='no'></img></a>
+
+      <div data-aos="slide-up" data-aos-offset="20" data-aos-easing="ease-in" data-aos-delay="500" className='connect'>
+        <div className='connect-title'>
+          <a href='#'>About</a>
         </div>
-        <div>
-          <a href='#'><img src={linkedin} alt='nn'></img></a>
+        <div className='connect-title'>
+          <a href='#'>Projects</a>
         </div>
-        <div>
-          <a href='#'><img src={twitter} alt='noo'></img></a>
+        <div className='connect-title'>
+          <a href='#'>Contacts</a>
         </div>
-        <div>
-          <a href='#'><img src={gmail} alt="nee"></img></a>
+        <div className='connect-title'>
+          <a href='#'>Resume</a>
         </div>
       </div>
 

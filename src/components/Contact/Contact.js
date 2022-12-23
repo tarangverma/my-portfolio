@@ -4,10 +4,13 @@ import github from "../../assets/github.svg"
 import gmail from "../../assets/gmail.svg"
 import linkedin from "../../assets/LinkedIn.svg"
 import twitter from "../../assets/twitter.svg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Contact() {
+  AOS.init();
   return (
-    <div className='contact'>
+    <div data-aos="slide-up" data-aos-offset="50" data-aos-easing="ease-in" data-aos-delay="500" className='contact'>
         <div className='contact-1'><h1>CONTACT ME</h1></div>
         <div className='lines'>
             <p>I am active on socials and my inbox is always open wheether is a Hi or any question or query feel free to ping me 

@@ -1,10 +1,13 @@
 import React from 'react';
 import "./About.css"
 import img from "../../assets/my-img.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function About() {
+  AOS.init();
   return (
-    <div className='about'>
+    <div data-aos="slide-up" data-aos-offset="20" data-aos-easing="ease-in" data-aos-delay="500" className='about'>
         <div className='head'>
             <img src={img} alt='no' />
             <div className='details'>

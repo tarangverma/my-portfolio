@@ -6,11 +6,11 @@ import 'aos/dist/aos.css';
 function Timeline() {
   AOS.init();
   return (
-    <div data-aos="slide-up" data-aos-offset="100" data-aos-easing="ease" data-aos-delay="500" className='T1'>
+    <div data-aos="slide-up" data-aos-offset="20" data-aos-easing="ease-in" data-aos-delay="500" className='T1'>
       <h1>PROJECTS</h1>
       <div className="timeline">
         <div  className="container left">
-          <div data-aos="slide-right" data-aos-offset="5" data-aos-easing="ease" data-aos-delay="500" className="content-m">
+          <div data-aos="slide-right" data-aos-offset="5" data-aos-easing="ease-in" data-aos-delay="500" className="content-m">
             <h2>LET'S CHAT </h2>
             <h3><i>Chat app (1 month)</i></h3>
             <p>An app to connect with people. It let's us to chat with people just like any other chating apps
@@ -31,7 +31,7 @@ function Timeline() {
           </div>
         </div>
         <div className="container right">
-          <div data-aos="slide-left" data-aos-offset="5" data-aos-easing="ease" data-aos-delay="500" className="content-m">
+          <div data-aos="slide-left" data-aos-offset="5" data-aos-easing="ease-in" data-aos-delay="500" className="content-m">
             <h2>NETFLIX-CLONE</h2>
             <p>A web app clone of Netflix. Used TMDB Api to fetch latest movies and categories to integrate in my app. 
               I have tried to create the UI exactly same as the original Netflix website.
@@ -49,7 +49,7 @@ function Timeline() {
           </div>
         </div>
         <div className="container left">
-          <div data-aos="slide-right" data-aos-offset="5" data-aos-easing="ease" data-aos-delay="500" className="content-m">
+          <div data-aos="slide-right" data-aos-offset="5" data-aos-easing="ease-in" data-aos-delay="500" className="content-m">
             <h2>WEATHER FORCAST</h2>
             <p>Weather App is a simple app which will tell us all about the current weather as well as the weather forecast of 7 days as per the weather data 
               of any selected location .</p>
@@ -65,7 +65,7 @@ function Timeline() {
           </div>
         </div>
         <div className="container right">
-          <div data-aos="slide-left" data-aos-offset="5" data-aos-easing="ease" data-aos-delay="500" className="content-m">
+          <div data-aos="slide-left" data-aos-offset="5" data-aos-easing="ease-in" data-aos-delay="500" className="content-m">
             <h2>PORTFOLIO</h2>
             <p>Here is my self build Portfolio which to showcase my skills and also a personal project to better myself with Front-end Devlopment.</p>
             <div className='logos'>
@@ -80,7 +80,7 @@ function Timeline() {
           </div>
         </div>
         <div className="container left">
-          <div data-aos="slide-right" data-aos-offset="5" data-aos-easing="ease" data-aos-delay="500" className="content-m">
+          <div data-aos="slide-right" data-aos-offset="5" data-aos-easing="ease-in" data-aos-delay="500" className="content-m">
             <h2>DISENY+ HOME PAGE</h2>
             <p>Diseny+ was having nice UI. I tried to make a same home page just like them, it helped me to advance my CSS skills.</p>
             <div className='logos'>
